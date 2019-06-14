@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="CppSQLite3U.cpp">
+      <Filter>sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3.c">
+      <Filter>sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="SG_Database.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SGBrowsingHistory.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CppSQLite3U.h">
+      <Filter>sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3.h">
+      <Filter>sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>H</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>H</Filter>
+    </ClInclude>
+    <ClInclude Include="SGBrowsingHistory.h">
+      <Filter>H</Filter>
+    </ClInclude>
+    <ClInclude Include="SG_Database.h">
+      <Filter>H</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sqlite">
+      <UniqueIdentifier>{b1315376-493a-4329-a90e-51d3b13c642c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP">
+      <UniqueIdentifier>{98bc0529-a551-4135-ae56-d5757d43553d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H">
+      <UniqueIdentifier>{5d5e8852-daab-4811-8636-4de6b4f99739}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
